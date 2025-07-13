@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body bgcolor="#A98563">
+    <center>
+           <form>
+            
+            <font color="#f0f0f0"><h1>Job Application Form </h1></font>
+          <strong><table border="3" bgcolor="#f0f0f0" width="550" height="550" cellpadding="9" cellspacing="0">
+                 </strong>
+           <tr>       
+           <td><label for="f_name">Full Name : </label></td>
+           <td>
+            <input type="text" placeholder="Enter Your Name" id="f_name"></td>
+             </tr>  
+        
+          <tr>
+          <td>
+            <label for="Email">Email Address : </label>
+        </td>
+            <td><input type="email" placeholder="Enter Email" id="Email"></td>
+            </tr>
+            
+            
+            <tr>
+           <td>
+            <label for="Phone">Phone Number </label>
+           </td> 
+            <td><input type="tel"  placeholder="123-456-7890" id="phone"></td>
+            </tr>
+    
+             <tr>
+                <td>
+                    <label for="gender">Gender</label></td>
+                <td><input type="radio" id="gender" value="male" name="Gender">Male
+                <input type="radio" id="gender" value="female" name="Gender">Female
+                    </td> 
+                       </tr>
+            
+              <tr>
+                <td>
+                    <label for="drop-down">Job Role : </label></td>
+
+                    <td><select name="Job Role" id="drop-down">
+                        <option value="Select Role">--Select Role--</option>
+                        <option value="Student">Student</option>
+                        <option value="full-time">Full Time </option>
+                        <option value="part-time">Part Time</option>
+                    </select></td>
+              </tr>
+
+              <tr>
+               <td>
+                  <label for="Date"> Birth Of Date :</label>
+                    </td> 
+                <td>
+                    <input type="date" id="Date">
+                  </td>
+                </tr>
+
+            <tr>
+            <td>
+              <label for="f_color">Favorite Color</label>
+              </td>  
+             <td>
+                <input type="color" id="f_color">
+                  </td>
+                </tr>
+
+                <tr>
+                <td>
+                    <label for="resume">Upload Resume</label>
+                  </td>
+               <td>
+                   <input type="file" id="resume">
+                 </td> 
+               </tr>
+                  
+                 <tr>
+                 <td>
+                    <label for="checkbox">Skills </label>
+                </td> 
+                <td> 
+                    <input type="checkbox" id="checkbox"><strong>HTML</strong>
+
+                     <input type="checkbox" id="checkbox"><strong>CSS</strong>
+
+                     <input type="checkbox" id="checkbox"><strong>JavaScript</strong>
+
+                     <input type="checkbox" id="checkbox"><strong>React</strong>
+                     </td>            
+                      </tr>
+                 
+                 <tr>
+                    <td>
+                       <label for="letter">Cover letter
+                         </label>
+                    </td>
+                   
+                   
+                    <td> 
+                        <textarea id="letter" rows="4" cols="40" >
+      Write something about yourself....
+                        </textarea>
+                    </td>
+                    </tr>
+                
+
+                 <tr>
+                   <strong><td colspan="2" align="center"></strong> 
+                 <b><button type="submit">Submit</button>
+                 <button type="reset">Reset</button></b>
+                    </td>
+                 </tr>
+
+           </table>
+
+         </form>
+
+    </center>
+
+</body>
+
+</html>
